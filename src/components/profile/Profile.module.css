@@ -1,0 +1,52 @@
+.profile {
+  margin: 25px auto;
+  width: 275px;
+  background-color: rgb(175, 213, 224);
+  border: 1px solid rgb(86, 145, 117);
+  display: flex;
+  padding-top: 25px;
+  flex-direction: column;
+  align-items: center;
+}
+  .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    .name{
+      font-size: 25px;
+      font-weight: bold;
+    }
+    
+    .location{
+      margin: 5px;
+      color: rgb(103, 151, 131);
+
+    }
+.tag{
+      margin: 5px;
+      
+
+    }
+
+  
+  .stats{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(122, 190, 164);
+  }
+    .label{
+      padding: 5px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .item{
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-right: 1px solid gray;
+    }
+  

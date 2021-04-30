@@ -1,0 +1,26 @@
+.statistics{
+  width: 275px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px auto;
+}
+  .statList{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    background-color: darkgrey;
+  }
+    .item{
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-right: 1px solid gray;
+    }
+      .label{
+        font-weight: bold;
+        font-size: 15px;
+      }

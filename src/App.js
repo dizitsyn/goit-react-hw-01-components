@@ -7,7 +7,7 @@ import title from './statistical-data.json';
 import friends from './friends.json';
 import transactions from './transactions.json';
 import Statisctcs from './components/statistical/Statisctcs';
-import FriendList from '../components/friendList/FriendList';
+import FriendList from './components/friendList/FriendList';
 import TransactionHistory from './components/transaction/TransactionHistory';
 
 const App = () => {
